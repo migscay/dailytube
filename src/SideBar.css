@@ -1,0 +1,12 @@
+.sidebar {
+    /* sidebar takes up 20% of the page width */
+    flex: 0.2;
+}
+
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
