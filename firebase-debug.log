@@ -1,0 +1,64 @@
+[debug] [2021-01-31T03:25:37.739Z] ----------------------------------------------------------------------
+[debug] [2021-01-31T03:25:37.743Z] Command:       C:\DAILYT~2\firebase-tools-instant-win.exe C:\Users\MigsCay\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting
+[debug] [2021-01-31T03:25:37.743Z] CLI Version:   9.2.2
+[debug] [2021-01-31T03:25:37.744Z] Platform:      win32
+[debug] [2021-01-31T03:25:37.744Z] Node Version:  v12.18.1
+[debug] [2021-01-31T03:25:37.746Z] Time:          Sun Jan 31 2021 14:25:37 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2021-01-31T03:25:37.747Z] ----------------------------------------------------------------------
+[debug] [2021-01-31T03:25:37.747Z] 
+[debug] [2021-01-31T03:25:37.756Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-01-31T03:25:37.757Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\dailytube
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-01-31T03:25:44.795Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-01-31T03:25:45.500Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-01-31T03:25:45.501Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project dailytube-143a2 (dailytube) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-01-31T03:26:19.460Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-01-31T03:26:19.619Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-01-31T03:26:19.620Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.2.5","browserURL":"https://www.gstatic.com/firebasejs/8.2.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.2.5/firebase.tgz"},"live":{"version":"8.2","browserURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.2/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.2.5/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.2.5/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.2.5/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.2.5/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.2.5/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.2.5/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.2.5/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.2.5/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.2.5/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.2.5/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.2.5/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\dailytube 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=9844522&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-01-31T03:26:50.633Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"b913c221c25b84d142ae","redirect_uri":"http://localhost:9005","state":"9844522"}
+[debug] [2021-01-31T03:26:50.942Z] <<< HTTP RESPONSE 200 {"date":"Sun, 31 Jan 2021 03:26:50 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"b09b2ff9c26a1127cbb283c9a00430a3\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-5029ae85.js gist.github.com/socket-worker-5029ae85.js","x-github-request-id":"CA69:3C1A:5C878:7FA40:6016237A"}
+[debug] [2021-01-31T03:26:50.944Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-01-31T03:26:51.275Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-01-31T03:26:51.275Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"migscay","id":28832453,"node_id":"MDQ6VXNlcjI4ODMyNDUz","avatar_url":"https://avatars.githubusercontent.com/u/28832453?v=4","gravatar_id":"","url":"https://api.github.com/users/migscay","html_url":"https://github.com/migscay","followers_url":"https://api.github.com/users/migscay/followers","following_url":"https://api.github.com/users/migscay/following{/other_user}","gists_url":"https://api.github.com/users/migscay/gists{/gist_id}","starred_url":"https://api.github.com/users/migscay/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/migscay/subscriptions","organizations_url":"https://api.github.com/users/migscay/orgs","repos_url":"https://api.github.com/users/migscay/repos","events_url":"https://api.github.com/users/migscay/events{/privacy}","received_events_url":"https://api.github.com/users/migscay/received_events","type":"User","site_admin":false,"name":"Miguel Vicente O. Santiago","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":18,"public_gists":0,"followers":1,"following":0,"created_at":"2017-05-20T23:50:41Z","updated_at":"2021-01-31T03:26:49Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":30791,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as migscay 
+[info] 
